@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="Media.css" />
+  </head>
+  <body>
+    <!-- navbar section-->
+    <section id="header">
+      <!--logo of website  -->
+      <a href="Index.html"><img src="Assets/logo.png" alt="Logo" /></a>
+
+      <!-- nav links -->
+      <div>
+        <ul id="navbar">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li>
+            <a href="#" id="close"
+              ><img src="Assets/arrow bold.png" alt="arrow"
+            /></a>
+          </li>
+          <li>
+            <a class="active" href="Cart.html" id="lg-cart"
+              ><img src="Assets/cart.png" alt="cart"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="mobile">
+        <a href="Cart.html" id="cart"
+          ><img src="Assets/cart.png" alt="Cart"
+        /></a>
+        <a href="#" id="menu"><img src="Assets/menu.png" alt="menu" /></a>
+      </div>
+    </section>
+
+    <!-- header section -->
+    <section id="about-header">
+      <h2>#Cart</h2>
+      <p>Get discount on amazing products upto 70%</p>
+    </section>
+
+    <!-- cart table -->
+    <section id="cart-section" class="padding">
+      <table width="100%">
+        <thead>
+          <tr>
+            <th>Remove</th>
+            <th>Image</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><img src="Assets/arrow bold.png" alt="arrow" /></td>
+            <td><img src="Assets/products/f1.jpg" alt="p1" /></td>
+            <td>Cartoon astronout T-Shirt</td>
+            <td>$179</td>
+            <td>
+              <input type="number" value="1" />
+            </td>
+            <td>$179</td>
+          </tr>
+
+          <tr>
+            <td><img src="Assets/arrow bold.png" alt="arrow" /></td>
+            <td><img src="Assets/products/f2.jpg" alt="p1" /></td>
+            <td>Cartoon astronout T-Shirt</td>
+            <td>$179</td>
+            <td>
+              <input type="number" value="1" />
+            </td>
+            <td>$179</td>
+          </tr>
+          <tr>
+            <td><img src="Assets/arrow bold.png" alt="arrow" /></td>
+            <td><img src="Assets/products/f3.jpg" alt="p1" /></td>
+            <td>Cartoon astronout T-Shirt</td>
+            <td>$179</td>
+            <td>
+              <input type="number" value="1" />
+            </td>
+            <td>$179</td>
+          </tr>
+        </tbody>
+
+
+      </table>
+    </section>
+
+
+    <!-- add to cart  -->
+    <section id="cart-add" class="padding">
+
+         <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+               <input type="text" placeholder="Enter your coupne">
+               <button class="normal"> Apply Now </button>
+            </div>
+         </div>
+
+         <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                  <td>Cart Subtotal</td>
+                  <td>$333</td>
+                </tr>
+
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$400</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+         </div>
+
+    </section>
+
+    <!-- newletter section  -->
+    <section class="newsletter padding margin">
+      <div class="news-text">
+        <h4>Signup for new letters</h4>
+        <p>
+          Get gmail updates of our latest collection and
+          <span>special offers</span>
+        </p>
+      </div>
+
+      <div class="form">
+        <input type="gmail" placeholder="abc@gmail.com" />
+        <button class="normal">Signup</button>
+      </div>
+    </section>
+
+    <!-- footer section  -->
+
+    <footer class="padding">
+      <div class="col">
+        <img src="Assets/logo.png" alt="logo" style="height: 45px" />
+
+        <div class="contact">
+          <h4>Contact</h4>
+          <p>
+            <strong>Address :</strong> Times Square New York City United States
+          </p>
+          <p><strong>Phone : </strong> +91 1122334455</p>
+          <p><strong>Time : </strong> 10:00 to 06:00</p>
+        </div>
+
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icons">
+            <img src="Assets/instagram.png" alt="instagram" />
+            <img src="Assets/facebook.png" alt="facebook" />
+            <img src="Assets/linkedin.png" alt="linkedin" />
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About Us</h4>
+        <a href="#">Gallery</a>
+        <a href="#">Collections</a>
+        <a href="#">Blog</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <div class="col">
+        <h4>My Accounts</h4>
+        <a href="#">My Orders</a>
+        <a href="#">My cards</a>
+        <a href="#">Track Orders</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Help / Support</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From app store or play store</p>
+        <div class="row">
+          <img src="Assets/pay/play.jpg" alt="play store" />
+          <img src="Assets/pay/app.jpg" alt="App store" />
+        </div>
+        <p>Secored Payment Gateways</p>
+        <img src="Assets/pay/pay.png" alt="payment" />
+      </div>
+    </footer>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
